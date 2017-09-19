@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/hexasynth.css">
+  </head>
+  <body>
+    <div class="title">HexaSynth</div>
+    <div class="center">
+      <!-- control panel-->
+      <div class="controls">
+        <div class="oscillator">Oscillator
+          <div class="waveforms">
+            <div class="control-title">Waveform</div>
+            <div class="osc-waveform">
+              <div class="label">Sin</div>
+              <label class="switch">
+                <input type="radio" name="waveform" checked="checked"><span class="slider" id="sine"></span>
+              </label>
+            </div>
+            <div class="osc-waveform">
+              <div class="label">Tri</div>
+              <label class="switch">
+                <input type="radio" name="waveform"><span class="slider" id="triangle"></span>
+              </label>
+            </div>
+            <div class="osc-waveform">
+              <div class="label">Squ</div>
+              <label class="switch">
+                <input type="radio" name="waveform"><span class="slider" id="square"></span>
+              </label>
+            </div>
+            <div class="osc-waveform">
+              <div class="label">Saw</div>
+              <label class="switch">
+                <input type="radio" name="waveform"><span class="slider" id="sawtooth"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- hex keys-->
+      <div class="hex-row q-row">
+        <div class="hex" id="q"></div>
+        <div class="hex" id="w"></div>
+        <div class="hex" id="e"></div>
+        <div class="hex" id="r"></div>
+        <div class="hex" id="t"></div>
+        <div class="hex" id="y"></div>
+        <div class="hex" id="u"></div>
+        <div class="hex" id="i"></div>
+        <div class="hex" id="o"></div>
+        <div class="hex" id="p"></div>
+      </div>
+      <div class="hex-row a-row">
+        <div class="hex" id="a"></div>
+        <div class="hex" id="s"></div>
+        <div class="hex" id="d"></div>
+        <div class="hex" id="f"></div>
+        <div class="hex" id="g"></div>
+        <div class="hex" id="h"></div>
+        <div class="hex" id="j"></div>
+        <div class="hex" id="k"></div>
+        <div class="hex" id="l"></div>
+      </div>
+      <div class="hex-row z-row">
+        <div class="hex" id="z"></div>
+        <div class="hex" id="x"></div>
+        <div class="hex" id="c"></div>
+        <div class="hex" id="v"></div>
+        <div class="hex" id="b"></div>
+        <div class="hex" id="n"></div>
+        <div class="hex" id="m"></div>
+      </div>
+    </div>
+    <script src="js/hexasynth.js"></script>
+  </body>
+</html>
+
+
+
+
+
